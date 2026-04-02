@@ -3,8 +3,8 @@ import sys, os, base64
 
 # CONFIG
 SERVE_DIR = os.path.expanduser("~/shared")
-USERNAME = "zeus"
-PASSWORD = "zeus"
+USERNAME = ""
+PASSWORD = ""
 
 class AuthHandler(SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
